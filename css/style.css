@@ -1,0 +1,189 @@
+body {
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+.hero{
+    padding-top: 70px;
+    background-image: url(../weather/banner.png);
+    background-color: #1E202B;
+    background-repeat: no-repeat;
+    
+}
+.searchbar {
+        background: #1E202B;
+        padding: 0.5rem 1rem;
+        margin-bottom: 2rem;
+}
+.searchbar input {
+        background: transparent;
+        color: white;
+        border: none;
+        outline: none;
+}
+.searchbar button {
+        background: #9a9c9d;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border: none;
+}
+.footerBtn  button {
+        background: #009ad8;
+        color: white;
+        width: 85px;
+        height: 50px;
+        border: none;
+        border-radius: 30px;
+}
+.row {
+        border-radius: 12px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-left: 0;
+    }
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+    }
+.today{
+    background-color: #323544;
+}
+.tomorrow{
+    background-color: #262936;
+    text-align: center;
+}
+.se-tomorrow{
+    background-color: #323544;
+    text-align: center;
+}
+.states{
+    color: #009ad8;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.header {
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        color: #bfc1c8;
+    }
+.item{
+  padding: 30px 20px;
+}
+.Max-deg{
+  font-size: 24px;
+  font-weight: 700;
+}
+.min-deg{
+  font-size: 16px;
+  color: #bfc1c8;
+  margin-top: 10px;
+}
+.content h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.ulItem li a {
+    border: 3px solid transparent; 
+    border-radius: 20px;
+    transition: all 0.3s ease; 
+}
+.ulItem li a:hover{
+ 
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.ulItem li{
+    margin-right: 10px;
+}
+
+.ulItem .nav-link.active {
+  color: #009ad8;
+  border-color: #009ad8;
+}
+.logoName h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.logoName p{
+    font-size: 12px;
+}
+.navbar{
+    padding: 40px 0;
+    background-color: #1E202B;  
+}
+.nav-link{
+    color: #fff;
+}
+.navbar-toggler{
+    color: #fff;
+}
+
+.footer{
+    background-color: #323544;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+
+.icons-footer-social{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: all .5s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E202B;
+}
+.icons-footer-social i{
+    width: 14px;
+    height: 14px;
+    font-size: 19px;
+    color: #009ad8;
+}
+.icons-footer-social:hover{
+    background-color: #009ad8;
+}
+.icons-footer-social:hover i{
+    color: #fff;
+}
+@media screen and (max-width : 980px) {
+    nav .collapse {
+        border-radius: 10px;
+        background-color: #323544;
+    }
+    .ulItem .nav-link.active {
+    color: #009ad8;
+    border-bottom: 1px solid #636466;
+    }
+    .ulItem li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #636466;
+}
+.ulItem li a {
+    border: none;
+    border-bottom: 1px solid #636466;
+    border-radius: 0;
+    padding: 15px;
+}
+.ulItem li{
+    margin-right: 0;
+}
+.ulItem .last a{
+    border-bottom: none;
+}
+.ulItem .last a:hover{
+    border-bottom: none;
+}
+.navbar-toggler{
+    background-color: #fff;
+    border: none;
+}
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px 15px ;
+    }
+}
